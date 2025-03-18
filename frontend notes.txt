@@ -1,0 +1,56 @@
+Bootstrap,Js and React notes
+Day 1 Monday 17-03-2025
+
+STEPS TO CREAT NEW REPO:-
+1. Login to GitHub 
+2. Click on the right hand side "+(Plus)" button and create new repo
+3. Enter the new Repo name.
+4. Enter the Repo description.
+5. Make repo Public (By default this is default).
+6. Select checkbox and add Readme file.  
+7. Create on create repo button.
+
+COMAAND TO DOWNLOAD ANY PUBLIC REPO:-
+$ git clone https://github.com/DHARM9978/pfile_fe_mar25  This will copy the git repo from the server to local machine.Thus,we get a folder of the repo.
+
+$ git status this command is use to check the remote repo
+
+$ git pull origin <branch name>
+$ git pull origin main 
+the above command pulls the files from the remote to the local machine. Only the file which are not updated or pulled.
+
+$ git status 
+
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT):-
+1. On the top most corner click on profile icon 
+2. In the list of options click on setting
+3. In the new window scroll down little bit and click on developer settings.
+4. on the left top corner personal access token and select token classic
+5. In the new window click the button and generate token and select token classic 
+6. In the new window add the relevent note.
+7. Select expiry as no expiry
+8. Select the checkbox repo 
+9. Scroll down fully and click generate token.
+10. Copy the token and main it to yourself.
+ 
+Note:-to do the operations on our repo from the specific computer git should recognize our git account on the system.
+
+To achive this we have to run two following command 
+$ git config --global user.email "github username" 
+
+COMMAND TO SYNC OUR LOCAL REPO WITH REMOTE REPO:-
+
+
+COMMAND TO UPDATE THE REMOTE REPO WITH RESPECT TO LOCAL REPO
+$ git add .
+In the above command The git will mark (stage) all the files that need to be updated in the remote with respect to local repo.
+
+$ git push origin admin 
+$ git push origin main 
+
+
+-----------------------------------------------
+BootStrap Notes
+
+ways to enable bootstrap in our webpage
